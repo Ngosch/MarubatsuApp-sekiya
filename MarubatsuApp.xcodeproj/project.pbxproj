@@ -13,6 +13,7 @@
 		FC9343322AA2AEA200ADD167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9343302AA2AEA200ADD167 /* Main.storyboard */; };
 		FC9343342AA2AEA300ADD167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9343332AA2AEA300ADD167 /* Assets.xcassets */; };
 		FC9343372AA2AEA300ADD167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9343352AA2AEA300ADD167 /* LaunchScreen.storyboard */; };
+		FC9343A92AA56D5000ADD167 /* CreateQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9343A82AA56D5000ADD167 /* CreateQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC9343332AA2AEA300ADD167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9343362AA2AEA300ADD167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC9343382AA2AEA300ADD167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9343A82AA56D5000ADD167 /* CreateQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FC9343332AA2AEA300ADD167 /* Assets.xcassets */,
 				FC9343352AA2AEA300ADD167 /* LaunchScreen.storyboard */,
 				FC9343382AA2AEA300ADD167 /* Info.plist */,
+				FC9343A82AA56D5000ADD167 /* CreateQuestionViewController.swift */,
 			);
 			path = MarubatsuApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9343A92AA56D5000ADD167 /* CreateQuestionViewController.swift in Sources */,
 				FC93432F2AA2AEA200ADD167 /* ViewController.swift in Sources */,
 				FC93432B2AA2AEA200ADD167 /* AppDelegate.swift in Sources */,
 				FC93432D2AA2AEA200ADD167 /* SceneDelegate.swift in Sources */,
